@@ -1,0 +1,63 @@
+/*Цвет основного текста  rgba(33, 33, 33, 1)*/
+/*Вторичний цвет  rgba(117, 117, 117, 1)*/
+/* белый #FFFFFF*/
+/*Акцент #2196F3*/
+/* Основной цвет фона #E5E5E5*/
+/* Вторичный цвет фона #2F303A */
+
+.page {
+    background-color: #ffffff;
+    color: rgba(117, 117, 117, 1);
+}
+
+.list {
+    list-style: none;
+}
+
+/* Logo */
+.logo {
+    color: #2196f3;
+}
+
+.logo-studio {
+    color: rgba(33, 33, 33, 1);
+}
+
+.logo-web {
+    color: #ffffff;
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: rgba(33, 33, 33, 1);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196f3;
+}
+
+.mail {
+    color: rgba(117, 117, 117, 1);
+}
+
+.mail:hover,
+.mail:focus {
+    color: #2196f3;
+}
+
+.phone {
+    color: rgba(117, 117, 117, 1);
+}
+
+.phone:hover,
+.phone:focus {
+    color: #2196f3;
+}
+
+/* Особенности */
+
+.section-title {
+    color: rgba(33, 33, 33, 1);
+}
