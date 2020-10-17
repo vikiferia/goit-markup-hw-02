@@ -104,10 +104,6 @@
     list-style: none;
 }
 
-address {
-    font-style: normal;
-}
-
 /* Навигация */
 
 .pagination {
@@ -127,10 +123,6 @@ address {
     color: var(--black);
 }
 
-/* .logo-web {
-    color: var(--white);
-} */
-
 /* Site nav */
 
 .site-nav .link {
@@ -145,14 +137,6 @@ address {
     color: var(--accent-color);
 }
 
-.site-nav .link:visited {
-    color: var(--black);
-}
-
-/* .mail {
-    color: rgba(117, 117, 117, 1);
-} */
-
 .mail:hover,
 .mail:focus {
     font-weight: 500;
@@ -160,10 +144,6 @@ address {
     letter-spacing: 0.02em;
     color: var(--accent-color);
 }
-
-/* .phone {
-    color: rgba(117, 117, 117, 1);
-} */
 
 .phone:hover,
 .phone:focus {
@@ -248,10 +228,50 @@ address {
     color: var(--white);
 }
 
-.address {
+.footer-list {
+    font-style: normal;
     color: var(--footer-text-accent);
 }
 
 .map {
     color: var(--white);
+}
+
+/* Страница Портфолио */
+.main-portfolio {
+    background-color: var(--white);
+}
+
+/* Фильтры */
+
+.button-filter {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background-color: var(--light-bg);
+    color: var(--black);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+    background-color: var(--accent-color);
+    color: var(--white);
+}
+.button-filter:visited {
+    background-color: var(--light-bg);
+    color: var(--black);
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--black);
+}
+
+.project-subtitle {
+    font-size: 16px;
+    line-height: 1.87;
 }
