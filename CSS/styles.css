@@ -145,6 +145,10 @@ address {
     color: var(--accent-color);
 }
 
+.site-nav .link:visited {
+    color: var(--black);
+}
+
 /* .mail {
     color: rgba(117, 117, 117, 1);
 } */
