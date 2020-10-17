@@ -108,6 +108,12 @@ address {
     font-style: normal;
 }
 
+/* Навигация */
+
+.pagination {
+    background-color: var(--white);
+}
+
 /* Logo */
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -181,6 +187,7 @@ address {
 /* Кнопка Заказ */
 
 .button {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
